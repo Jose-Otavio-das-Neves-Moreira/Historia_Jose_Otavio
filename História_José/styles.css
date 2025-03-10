@@ -1,0 +1,55 @@
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    width: 1000px;
+    height: 1000px;
+    backdrop-filter: blur(2px);
+}
+
+
+
+p{
+    font-family: "Oswald", serif;
+    font-size: 30px;
+    margin: 3px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 100px;
+    
+}
+
+
+button{
+    color: white;
+    margin: 2px;
+    width: 750px;
+    font-size: 35px;
+    border-radius: 10px;
+    background-color: black;
+    border: transparent;
+}
+
+img{
+    width: 700px;
+    height: 700px;
+}
+
+body{
+    background-image: url(https://preview.redd.it/k6fjo5ie1tna1.jpg?auto=webp&s=5d0d5291c5093d3f0f6be63fce1837c0b2655052);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
